@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Konwerter Artykułów na HTML</h1>
+        <p class="description">
+            Przetwórz swój artykuł na format HTML. Wklej treść poniżej, a następnie kliknij "Przetwórz artykuł". Możesz
+            pobrać wynik jako plik HTML.
+        </p>
+        <textarea id="articleInput" rows="10" cols="50" placeholder="Wklej tutaj swój artykuł"></textarea>
+        <button id="processButton" class="btn">Przetwórz artykuł</button>
+        <div id="output" class="output"></div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./dist/js/main.min.js"></script>
+
+</body>
+
+</html>
